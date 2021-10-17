@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .App {
   text-align: center;
 }
 
+body{
+  margin: 0;
+  background-image: linear-gradient(to left top, #370530, #4d0053, #5a007e, #5501b1, #1225eb);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #263042;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
